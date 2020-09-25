@@ -1,0 +1,1285 @@
+=========================================================
+	May 14th (Thursday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: About 40 minutes
+Preparation before meeting: Read Team_Software_Project_Brief-PreRelease.pdf
+
+Important points:
+-All members introduce themselves to others
+-Elect the team leader as well as the spokesperson: Zhao Yuan
+-Pick project preferences:
+	(1)Challenge-1: COVID-19
+	(2)Challenge-3: The Mood of the World
+	(3)Challenge-2: Blockchain for 5G and IoT
+
+Tasks done during meeting: 
+	Zhao Yuan submitted information of all members and team project preferences.
+Task to be done: 
+	All members wait for project allocation.
+
+
+
+=========================================================
+	May 23rd (Saturday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: About 50 minutes
+Preparation before meeting: Read Team_Software_Project_Brief-Final.pdf
+
+Important points:
+-Pick Microsoft project preferences:
+	(1)Microsoft-3: Deep Metrics for Visual Retrieval Tasks (A research project about deep learning and image retrieval)
+	(2)Microsoft-9: Top News Detection (A website displaying ‘Top News’ for various news sections and rank similar articles)
+	(3)Microsoft-6: Local Area Information App for Renters and Buyers (A rent application giving a full impression around the property)
+
+Task to be done: 
+	Spokesperson (Zhao Yuan) writes the statement of Microsoft project preferences.
+
+
+
+=========================================================
+	May 26th (Tuesday)-ADVICE SESSION 
+=========================================================
+(With Mark Matthews and Hamidreza Khaleghzadeh)
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: About half an hour
+Preparation before meeting: list all questions concerned
+
+Important points:
+-Advices given:
+	(1)Record meetings
+	(2)Pay attention to what kind of datasets to be used
+	(3)Decide the frequency of group meetings
+	(4)Consider roles of team members
+	(5)Consider what tools to use except for Github
+	(6)Be sure upload presentations before Tuesdays' feedback session
+-Q&A:
+1. Should we align this research project into 8 minimum requirements since research project is different from development project?
+  	Talk to Microsoft mentor for confirmation and advice.
+2. Could we get some suggestions for using CATME?
+  	Watch some introductions as well as teaching videos and it is not going to be a problem.
+3. Will you create a github repo for us or should we create it by ourselves?
+	Github repo will be created and provided to team groups.
+
+Task to be done: 
+	All members discuss advices obtained and wait for notice of project allocation
+
+
+
+=========================================================
+	May 26th (Tuesday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: About 20 minutes
+
+Important points:
+-Determine daily quick meetings (In case there is something urgent or important) and weekly formal meetings (exchange idea/information and solve problems)
+-Roles of team members and datasets are still to be determined because project is not ensured.
+
+
+
+=========================================================
+	May 29th (Friday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: About half an hour
+
+Important points:
+-Microsoft-3: Deep Metrics for Visual Retrieval Tasks is allocated to our team but confirmation from Microsoft is still needed.
+-Read start resources to get a basic and background view of deep metric learning for visual retrieval
+-All members will deliver Show-and-Tell presentation in turn.
+
+Task done during meeting: 
+	Zhou Yuan replied Anna's introduction email and asked Microsoft mentors for the time of meeting.
+Task to be done: 
+	All members read start resources.
+
+
+
+=========================================================
+	May 31st (Sunday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: About an hour
+Preparation: Read start resources
+
+Important points:
+-Discuss what are learned from start resources.
+-Clarify project objectives:
+	1. Understand all kinds of deep metric learning methods as well as various parameters and architectures
+	2. Compare and evaluate existing methods and get to know their advantages and disadvantages
+	3. Propose and implement a new unified evaluation method and use it to evaluate
+-Determine the order of members in 6 Show-and-Tell presentations:
+	1. Zhao Yuan    2.Yikai Wang    3.Hanyuxi Zhou    4.Yili Lai    5.Yuping Tian   6.Ning Tao
+-Using cloud server: 
+	Ask advice for what cloud server platform should we use, Microsoft Azure VM or UCD VM?
+-Prepare for meetings with Microsoft mentors.
+
+Task done during meeting: 
+	Zhao Yuan collected all questions concerned and to be asked in meeting with mentors, including project targets, datasets, tools, final results and workload allocation.
+Task to be done: 
+	All members review basic knowledge of machine learning and image identification to prepare for meeting with Microsoft mentors.
+
+
+
+=========================================================
+	June 2nd (Tuesday)-ADVICE SESSION
+=========================================================
+(With Simon Caton)
+Note taker: Hanyuxi Zhou/Zhao Yuan/Ning Tao
+Meeting tool: Zoom
+Duration: Around Half an hour
+
+Important points:
+-Advices given:
+	(1)Microsoft expect solutions and ideas from teams
+	(2)Consider what dataset to be used and what format input data and results are stored
+	(3)Consider non-technical team roles which can be more than 20,such as manager, spokesman, note taker, pre reading collector and so on.
+	(4)Consider schedule and deadlines of project
+	(5)Consider architecture of the project and set up environment
+	(6)Contact Microsoft mentors immediately to arrange a meeting
+
+Task to be done: Discuss all advices given.
+
+
+
+=========================================================
+	June 2nd (Tuesday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: WeChat
+Duration: About an hour
+
+Important points:
+-Identify non-technical roles:
+	(1)Team leader: Zhao Yuan (Organize and unite all team members)
+	(2)Project manager: Yikai Wang (Control thinking and research direction, control project schedule and collect questions)
+	(3)Spokesman: Zhao Yuan (Main contact)
+	(4)Meeting recorder: Hanyuxi Zhou (Record and summarise all points in meetings, and all members may help with meeting records)
+	(5)Document manager: Yili Lai (Manage and modify formats and contents of documents)
+	(6)Meeting organizer: Yuping Tian (Determine topics and times of group meetings and ensure every member take part.)
+	(7)Github repo manager: Ning Tao (Organize all contents in Github repo and deal with conflicts)
+-Project schedule and study direction still cannot be determined unless our team has a meeting with Microsoft mentors.
+-Discuss data plan:
+	Dataset used in start resources and from relevant papers are considered, but it is unrealistic to identify and collect all datasets needed in the whole project because we are still at the first stage of deep metric learning.
+
+Task done during meeting: 
+	Zhao Yuan sent another email to arrange a meeting with Microsoft mentors.
+Task to be done: 
+	All members wait for the meeting with mentors.
+
+
+
+=========================================================
+	June 3rd (Wednesday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou/Ning Tao
+Meeting tool: Wechat
+Duration: About 80 minutes
+
+Important points:
+1. Brain storming about objective of the project.
+	- get better understanding of the metric learning by implementing simple metric learning model.
+	- make plan based on understanding deep metric learning
+	- write a short understanding on metric learning
+2. Project plan discussion:
+	-Project objectives: 
+		This part will be written by Yikai Wang. And we consider finding source code of existing deep metric learning methods to help us understand and evaluate them.
+	-Project Plan (Raw version):
+		Week 2: Every member writes a document about their understanding and ideas about metric learning and this project.
+		Week 3-4: After all members have enough understanding of metric learning, implement a simple metric learning model as a demo using typical and common dataset like Fashion-MNIST.
+		Week 5-6(Interim Presentation): Have enough understanding in state of art metric and compare and evaluate them to know their advantages and disadvantages.
+		Week 7-8: Propose our own unified evaluate method and implement it.
+		Week 9-10: Test our new evaluate method and improve it.
+		Week 11-13: Final presentation and final report.
+	-Architecture:
+		Set up our cloud server.(Cloud server need to be applied if we use UCD VM)
+	-Data plan:
+		Use typical and common dataset like Fashion-MNIST at the first stage of our project and more datasets are to be determined during research.
+	-Github:
+		List all members and their commits.
+	-Team management:
+		In every weekly formal meeting, all members exchange their progress and ideas, stating what they have done, what problem they come across, what they want to do next as well as the reason of doing that. During weekly formal meeting, long-term goals and short-term goals should be set or updated.
+
+Task done during meeting: 
+	Zhao Yuan sent an email to Simon to ask for help with arranging meeting with Microsoft mentors and sent another email to apply for the use of UCD VM.
+Task to be done: 
+	Every member submits a document about their understanding and ideas about metric learning and this project by Friday's meeting.
+
+
+
+=========================================================
+	June 4th (Thursday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Microsoft Team
+Duration: About 50 minutes
+
+Important points:
+-Get reply from Microsoft mentors and the meeting is arranged to be at 11am on June 5th (Friday Morning)
+-Get familiar with Microsoft team and test the quality of meeting calls as well as the recording tool in Microsoft Team.
+-Review questions proposed on May 31st and come up with more questions about targets, results and meeting arrangement with mentors.
+-The submission of documents about members' understanding of metric learning and our project is changed into next week.
+
+Task done during meeting: 
+	All members edited Meeting Question file on Google doc. (https://docs.google.com/document/d/12zsenvg3g5HoEuZ8TNjLeCzW1-FzKkJ3td-DQcOGHvk)
+Task to be done: 
+	All members write Project plan together after meeting with Microsoft mentors and finish it this weekend.
+
+
+
+=========================================================
+	June 5th (Friday)-MICROSOFT MEETING
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Hanyuxi Zhou/Ning Tao
+Meeting tool: Microsoft Team
+Duration: About 80 minutes
+
+Important points:
+1. Introduction of Microsoft mentors
+	-Mo: Internet of Things/Machine learning/NLP
+	-Felipe: Master degree of data mining in statistic, worked in Microsoft as a software engineering first and a business officer ranking Microsoft partners later.
+2. Project objectives
+	Understand deep metric learning and implement different algorithms. Compare existing algorithms trained in same condition (datasets, data augmentation methods, optimizers and so on) and come up with new ideas and improve the condition.
+3. Introduction of team members
+	-Have basic understanding on machine learning but may not have deep understanding on details.
+	-All of us have used package tools to implement machine learning method and some of us tried to write self-implemented algorithm of ML method.
+	-List what the structure of our relevant courses, such as machine learning.
+	-Background of each member:
+		(1)Hanyuxi Zhou: Studied software engineering when learning for Bachelor's degree, but took a lot of modules about Machine learning and Data science at UCD.
+		(2)Ning Tao: Studied software engineering during undergraduate time but all the contents learning at the time includes machine learning materials.
+		(3)Yikai Wang: Learned deep learning and connecting computation modules, finished a project of pneumonia X-ray image classification and implemented an alphabet recognition algorithm.
+		(4)Zhao Yuan: Majored in Internet of things and did a project about variable sensors for monitoring ECG when studying for Bachelor's degree. During master study, took modules about Machine learning, Data science in Python, Data mining and so on. Cooperate with Yikai in the deep learning project and is familiar with PyTorch.
+		(5)Yuping Tian: Have similar study experience with Zhao Yuan. Did not take deep learning module but be very interested in this project.
+		(6)Yili Lai: Have taken advanced machine learning module last semester and done some implementation of CNN and VGG-16 models. Have a basic understanding of machine learning but not know deep learning too much.
+4. Set weekly meetings
+	-Weekly sync: Monday mornings from 11a.m. to 12p.m.
+	-Office hours: Thursday afternoon from 4p.m. to 4:30p.m.
+5. Project plan
+	-Understanding phase: (about 3 weeks, all people involved) 
+	-Implementation phase: following losses to be implemented and compared (Method name – year published – loss type) 3 weeks, I hope we can understand and implement 2 algorithms per person. 
+	-Comparing and innovation phase (1 week): New ideas to be implemented at this phase. Any findings 
+	-Wrap off phase (5 weeks): Write up, presentation and website (show results of models implemented and do image retrieval)
+6. Discuss whether we should or do we really need to develop a website
+	-Pros: A good way of presentation of results and image retrieval interaction.
+	-Corns: Some extra workload needed.
+	-Still need to be discussed in detail*****
+7. Infrastructure
+	-Azure VM cloud server needed. (The answer will be given before next week.)
+	-Laptops (processors more than 20)
+	-To be discussed*****
+8. Information got from mentors
+	-Plan schedule
+	-Materials to be learned
+	-Dataset to be used
+	-Methods to be implemented
+
+Task to be done:
+	1. Discuss whether we should, do we really need to or hoe to develop a website
+	2. Discuss what kind of cloud server do we need (Device Configuration)
+
+
+
+=========================================================
+	June 5th (Friday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou/Yuping Tian
+Meeting tool: Microsoft Team
+Duration: About 20 minutes
+
+Important points:
+1. Distribution writing of Project Plan:
+	-Project Plan (Yili Lai)
+	-Roles (Zhao Yuan)
+	-Architecture (Ning Tao)
+	-Data Plan (Hanyuxi Zhou)
+	-Github (Zhao Yuan)
+	-Team Management (Yuping Tian)
+2. Reach a consensus that we should learn basic knowledge of deep metric learning with practice
+
+Task to be done: All members finish their parts of Project Plan before Sunday noon (12pm of June 7th)
+
+
+
+=========================================================
+	June 7th (Sunday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou/Yuping Tian
+Meeting tool: Microsoft Team
+Duration: About 50 minutes
+
+Important points:
+1. Review and edit Project Plan
+	-Project objectives (Yikai Wang): Add a summary paragraph
+	-Project plan (Yili Lai): Add some more small tasks in detail
+	-Architecture (Ning Tao): Wait for response from Microsoft mentors to get our cloud server
+	-Data Plan (Hanyuxi Zhou): Add some information about generated data
+	-Github (Zhao Yuan): Add picture evidence of members' access to github
+	-Team Management (Yuping Tian): All good
+2. List all questions to be asked in tomorrow's meeting with mentors
+
+Task done after meeting: 
+	Zhao Yuan sent Project Plan and Questions to Mo.
+Task to be done: 
+	Complete the final version of Project Plan after all questions being answered.
+
+
+
+=========================================================
+	June 8th (Monday)-MICROSOFT MEETING
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Hanyuxi Zhou/Zhao Yuan/Ning Tao
+Meeting tool: Microsoft team
+Duration: About an hour
+
+Important points:
+1. Question Discussion:
+	-Start Website development in Week 7 before innovation phase
+	-Get recommendation reading list this afternoon
+	-Get into Azure subscription this afternoon
+		(1) 1500 credits for using
+		(2) Close cloud server after using
+2.Project plan review：
+	-Project Objectives: 
+		(1) Divide our goal into basic part and advanced part
+		(2) Comparing of different metrics should be under the same condition
+	-Project plan: 
+		(1) Understanding Phase (Week 3): Delivery could be a literature review report, stating what metric learning is, why it is important and why this project is important
+		(2) Reproduction Phase (Week 4/5/6): Reproduce one metric a week for each member and compare all metrics in Week 6.
+		(3) Website development (Week 7):
+			* 6 metrics used for image retrieval
+			* 12 metrics used for comparing
+		(4) Innovation Phase (Week 8/9/10): If no new metric is proposed finally, it is also acceptable.
+	-Architecture: Set up cloud environment and add some evidences.
+	-Roles: Set roles in turn so that every member is familiar with several roles.
+
+Task to be done:
+	All members edit Project Plan and deliver a final version.
+
+
+
+=========================================================
+	June 9th (Tuesday)-ADVICE SESSION
+=========================================================
+(With Deepak and Chidubem)
+Note taker: Hanyuxi Zhou/Zhao Yuan/Ning Tao
+Meeting tool: Zoom
+Duration: About 45 minutes
+
+Important points:
+1. Overall evaluation of Project Plan:
+	Quite ambitious and need to make sure this plan is feasible and down to earth.
+2. Suggestions:
+	-Consider whether the number of models to be implemented is overloaded for all members. If all models cannot be implemented before week 7, then complete 6 to 8 models first and use week 7 as a buffer to continue this work.
+	-Develop and show a demo website in Interim presentation, not just data.
+	-Begin to build a website early and finish coding part at the end of week 9 to make sure User Evaluations run well in week 10.
+	-Try to make it clear that in what condition (same optimizer or same hyperparameter) all members are going to compare the 12 models and what evaluate metrics will be used.
+	(Precision@1, MAP@R, and R-precision are used to evaluate metrics but the condition used for every model is not ensured yet.)
+3. Grade schema
+	Focus more on how well these models are compared and analyzed.
+4. Questions about the 8 minimum requirements (Still waiting for replies*****)
+	-Website usable on multiple device types: 
+		Not a very big problem, just need to be confirmed.
+	-Non-arbitrary use of at least 2 web APIs: 
+		It is hard to add Web APIs into this research project.
+	-The back-end must use auto-scaling: 
+  		Is it necessary in a research project since our back-end is very simple?
+ 	-At least 2 diﬀerent user contexts / stories
+  		Is it a hard requirement because user context in this project is also very simple?
+
+Task to be done: 
+	All members discuss and adjust the original plan a little and talk to Microsoft mentors and teachers again
+
+
+
+=========================================================
+	June 11th (Thursday)-MICROSOFT OFFICE HOUR
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Hanyuxi Zhou/Ning Tao
+Meeting tool: Microsoft Teams
+Duration: About 50 minutes
+
+Important points:
+1. Consider prototype to be submitted in Interim Presentation as a recommendation system.
+	- Main components: similarity calculating function, image collections, website
+	- Procedure: 
+		(1) Build indexes, including image vectors produced by embedding functions (models to be implemented by us) and ids, for images in collections stored in database using index builder
+		(2) Get a query which takes image URLs (or image files) from front-end and send it to the server
+		(3) The server calculates image vector for the query image using embedding functions and the similarity between it and existing image vectors
+		(4) The server gets the top k image vectors which are similar to the query and returns an html page showing these images.
+	- Suggested tool:
+		(1) Image search engine: SPTAG/FAISS
+		(2) Web application framework: Flask
+		(3) Similarity or distance functions: Simple and single functions, like Cosine Distance.
+2. List some more related materials
+3. General suggestions
+	-Try to combine requirements from UCD and what we want to achieve.
+	-Every member should help each other and do not be afraid to ask for help. 
+	-Discuss and allocate 12 models flexibly by ourselves.
+
+Task to be done: All members discuss and determine a new version of plan.
+
+
+
+=========================================================
+	June 11th (Thursday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Microsoft Teams
+Duration: About 50 minutes
+
+Important points:
+1. Begin our prototype early
+	-In a week (before June 18th): 
+		(1) Make sure data exchange between front-end and back-end is successful
+		(2) Try to implement or find existing code of two models
+	-In two weeks (before June 25th):
+		Combine models and website
+2. Plan of next week in detail
+	-Front-end: Yili Lai
+	-Cloud environment (cloud server and database server): Yikai Wang / Hanyuxi Zhou
+	-Embedding function (contrast loss and triplet): Zhao Yuan / Yuping Tian / Ning Tao
+
+
+
+=========================================================
+	June 14th (Sunday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Microsoft Teams
+Duration: About 70 minutes
+
+Important points:
+1. Discuss Project Plan feedback
+	-Architecture and data analysis stack: 
+		Front-end/back-end (web server/database/models)
+		Process:
+		(1)Train models on Azure notebook with image collections and store models in files
+		(2)Store image indexes and paths into database
+		(3)Upload a query image from front-end and send it to web server
+		(4)Using models with this query image and get indexes of top k similar images
+		(5)Find paths of images from database with indexes
+		(6)Show images retrieved on front-end
+	-Run different models in parallel (feasible but still need to be confirmed with UCD)
+2. Azure notebook or AI Lab used for training models (To be confirmed with Microsoft mentors)
+3. Auto scaling back-end:
+	-Using Azure virtual machine scale set
+	-Use a single virtual machine for now and redeploy auto scaling cloud environment later
+4. Store data for training on OneDrive so it can be imported to Azure notebook easily
+5. List questions to be asked in Monday's meeting with Microsoft Mentors
+
+Task to be done:
+	All members finish plan of this week and begin to implement models.
+
+
+
+=========================================================
+	June 15th (Monday)-MICROSOFT MEETING
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Hanyuxi Zhou
+Meeting tool: Microsoft Teams
+Duration: About 50 minutes
+
+Important points:
+1. Get access to Azure notebook (Remember to email Microsoft mentors)
+2. 12 models in parallel
+	No, but using ensemble to combine models together to get a better performance is a good way.
+3. Present our work last week
+	-Front end: Yili Lai developed HTML pages for our website
+	-Back end: 
+		Yikang Wang deployed the Azure virtual machine, tomcat web server, Python and Java environments.
+		Hanyuxi Zhou deployed MySQL database server.
+	-Models:
+		Zhao Yuan, Ning Tao and Yuping Tian implemented a metric learning model using contrast loss
+4. Some Suggestions of using cloud server with GPU.
+
+Task to be done: 
+	-All members try to combine front-end, back-end and models together by this week.
+	-All members write their own understanding towards metric learning down as summaries.
+
+
+
+=========================================================
+	June 16th (Monday)-FEEDBACK SESSION
+=========================================================
+(With Neil Hurley and Hamidreza Khalaghzadeh)
+Note taker: Hanyuxi Zhou/Ning Tao
+Meeting tool: Zoom
+Duration: About 45 minutes
+
+Important points:
+1. An introduction to our project: 
+	-Objectives:
+		(1)Implement and compare 6-12 metric learning models and propose a new model with better performance
+		(2)Develop a website showing our research results and retrieving pictures using our models
+	-Progresses:
+		(1)Read basic papers about metric learning and some more about contrastive loss
+		(2)Developed HTML pages for front-end, deployed cloud environment for back-end and implemented a model using contrastive loss as its loss function.
+2. Details about contrastive loss model:
+	-An artificial neural network which uses contrastive loss as a loss function, turning pixels of images into two-dimensional vectors used for visualization.
+	-Contain two main parts:
+		(1)Embedding function: turn input pictures into vectors in embedding space, which can be visualized in a two-dimensional coordinate system.
+		(2)Similarity function: calculate distance between vectors in embedding space
+	-Return the top k most similar pictures
+	-Use precision as evaluations of different models for images are labeled in our dataset.
+3. Suggestions:
+	-Building a simple and straightforward application is good for fitting into the grade schema
+	-Make sure some members are working on embedding methods
+	-Embedding space pictures can be added to the query results showing in the website
+	-Random similarity can be assigned to images in the dataset just to help to develop the prototype.
+4. Q&A:
+(1)Would implementing ensemble models be a good idea?
+	Yes, on top of understanding ensemble and models deeply, it would be good to do some more exciting things. And making some really good combination on several models would be better than putting a lot of hard work on so many models. 
+	After finishing the prototype well, some members who are especially interested in some similar models can try to do this combination. Be careful about your time scale.
+(2)Does the parallel question mean something related to ensemble?
+	No, it is beyond ensemble method. If some model takes too much time to run then you can try to make it run in a parallel way. Ensemble would be a simpler way but you may come up with some really good algorithm that nobody has done.
+	Doing a new embedding method mathematically would be fantastic but that's quite challenging. You should be careful about the time scale so that you won't get into a situation where nothing is achieved. Maybe one of the members can take this risky task and other members make sure those not risky tasks are finished.
+
+
+
+=========================================================
+	June 16th (Monday)-GROUP MEETING
+=========================================================
+Noter taker: Hanyuxi Zhou
+Meeting tool: Microsoft Teams
+Duration: About 20 minutes
+
+Important points:
+1. Decide to use python to develop the web app.
+2. New task Assignment:
+	-Yili Lai: Continue working on front-end
+	-Ning Tao: Work on contrastive model code to fit for backend service
+	-Zhao Yuan: Work on changing the Minst dataset to our own data
+	-Yuping Tian: Work on pre-processing the images for training the models
+	-Yikai Wang/Hanyuxi Zhou: work on make sure data exchange successfully between front-end and back-end.
+
+
+=========================================================
+	June 18th (Thursday)—MICROSOFT OFFICE HOUR
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Microsoft Teams
+Duration: About 20 minutes
+
+Important points:
+Q&A
+1. Data loader (Zhao Yuan): We got stuck at using data loader to store them into Custom datasets.
+	Make sure this have been discussed with all members and if it still cannot be solved, send code to me and that may take me half a day to find the bug.
+2. Azure Notebook access (Yikai Wang):
+	UCD Email address do not have the permission to use Azure Notebook so may be try to set up a VM and install Jupyter Notebook. Remote development can be a good choice.
+
+
+
+
+=========================================================
+	June 18th (Thursday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi
+Meeting tool: Microsoft Teams
+Duration: About 45 minutes
+
+Important points:
+1. Model structure:
+	-Five layer-structure / Twin network
+	-Each element in the dataset (in the final layer) is made up of two 28*28 images (two tensors) and a Boolean flag showing whether the images belong to the same class
+	-Data preprocessing: Turn pictures into gray-scale, resize them into 28*28 pixels, store them into tensors, normalize them and put them into dataset finally
+	-Dataset is in a self-structure
+2. Web application processing:
+	-Web browser sends HTTP request which contains an image URL to web server, and the relevant functions in web server deals with this request, downloading the image. 
+	-Then this image is sent to our model as a parameter and our model returns a list of model indexes. 
+	-Finally, image paths with these indexes are selected from database and after obtaining these images, web server send a list of these images as a response to web browser.
+3. Database structure:
+	-Images are stored in server disks and image paths as well as indexes are stored in database.
+4. Project directory:
+	-Python files
+	-WSGI setting files
+	-Directory 'templates' (HTML files)
+	-Directory 'static' (CSS/JS/IMG files)
+	
+Task to be done (in this week):
+	Yikai Wang/Yili Lai: Make front-end static files (CSS, JS and so on) available and deal with HTTP request
+	Hanyuxi Zhou/Yuping Tian: Database access
+	Zhao Yuan: Data preprocessing and forming dataset used by our models
+	Ning Tao: Deal with the interaction between model and back-end
+	
+	
+	
+=========================================================
+	June 21th (Sunday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Microsoft Teams
+Duration: About 45 minutes
+
+Every member show the progress made so far:
+	-Front and back end data exchange is successful but there are some problems with uploading and saving images
+	-Our model is united so that it can be loaded in a python file and it is using our new sampled dataset
+	-Database is not used temporarily
+
+Tasks to be done:
+	-Yikai Wang and Hanyuxi Zhou solve the image uploading and saving problem
+	-Ning Tao continues to combine our model with back end.
+
+=========================================================
+	June 23th (Tuesday)-UCD MEETING
+=========================================================
+(With Mark Matthews and Hung Ngo)
+Note taker: Zhao Yuan
+Meeting tool: Zoom
+Duration: About half an hour
+Preparation before meeting: A previous inner meeting for 6 members was held. Progresses are concluded and questions are listed.
+Important points: 
+
+-Advices given:
+(1) Two more datasets for birds’ images. https://gvanhorn38.github.io/assets/papers/building_a_bird_recognition_app.pdf and https://dl.allaboutbirds.org/nabirds.
+(2) For interim demo, focus on bird dataset. For final version, realize switchable datasets.
+(3) To determine the appropriate data size, one choice is start from 100 images and increase step by step till the model realize a good performance.
+(4) Be clear about each stage’s work, provide more specific information in the future such as evaluation and alternative plans against risks.
+
+-Q&A:
+1. Will not using the database affect the score of the whole project?
+	Database is not a necessary requirement, files are acceptable if with better performance. 
+2. How to determine the appropriate training data size (number of images)?
+	The more the better, also follow Deepak or Microsoft mentors’ suggestions.
+
+Task to be done:
+1. Prepare interim presentation and demo.
+2. More implementation on other models.
+
+=========================================================
+	June 23th (Tuesday)-MICROSOFT MEETING
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Ning Tao
+Meeting tool: Microsoft Teams
+Duration: About 50 minutes
+
+Report progress of the project session:
+1.Yikai wang, Hanyuxi Zhou: Complete the architecture of the backend server, made it possible to interact with the model code.
+2.Zhao Yuan, Ning Tao: Reorganized the model code to make it clearer and changed the dataset to bird dataset (older version was MNIST).
+3.Yuping Tian: Learn the research the information about the database system.
+3.Yili Lai: Complete the front end web page. Worked on another model with reading corresponding paper.
+
+Important points:
+1. Database system discussion: It is only useful when it deals with scales of the system. (Not very useful and nessesary)
+	-detail dabatase structure discussion if we need it.
+2. after learn something in the week, there should be one page or half page leanring note.
+
+Task to be done: 
+1. fully complete the prototype of the retrival system, prepare for the demo of the report.
+2. Presentation and demo discussion: Record the presentation and demo (at least the idea before Thurday feedback session).
+3. Communicate and share the current knowledge inside the team.
+4. Read paper and start work on other module.
+5. Deploy first training model on the Azure notebook.
+
+=========================================================
+	June 25th (Thursday)-MICROSOFT MEETING
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Yuping Tian
+Meeting tool: Microsoft Teams
+Duration: About 50 minutes
+
+Asking the questions about the demo and presentation and Mr Karzand gave his advices:
+1. Evaluation: 
+		-compare the time and throughout of different models.
+		-compare the evlauation metrics of different models.
+		-compare two models side by side: input same images into two models and let people choose which output image they prefer.
+2. Sprint Plan:
+		-put the finish date of the target on the slide and the output of each phase.
+3. Data Source:
+		-change the expression method of the slide.
+4. Current Status:
+		-Put diagram of the system on slide.
+5. Team management:
+		-change the expression method of the slide.
+
+Showing Mr Karzand the retrieval system:
+1. The website, upload one image and return 10 similar images.
+2. The code of the server, the output images of the model are sorted descending and return the first 10.
+
+=========================================================
+	June 25th (Thursday)-GROUP MEETING
+=========================================================
+Note taker: Yuping Tian
+Meeting tool: Microsoft Teams
+Duration: 15 minutes
+
+Important points:
+1. Confirm the date of complete the demo and presentation
+		-each teammate finish video of their part before 26 June 14:00.
+		-record video about demo together 26 June 21:00.
+
+=========================================================
+	June 27th (Saturday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Microsoft Teams
+Duration: About 30 minutes
+
+Interim demo task assignment:
+	-Introduction and user stories: Yuping Tian
+	-Website page: Yili Lai
+	-Image retrival function: Hanyuxi Zhou
+	-Cloud infrastructure: Yikai Wang
+	-Model architecture: Zhao Yuan and Ning Tao
+	-Summary: Zhao Yuan
+	
+=========================================================
+	June 29th (Monday)-MICROSOFT MEETING
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Yili Lai
+Meeting tool: Microsoft Teams
+Duration: About 20 minutes
+
+Report progress of the project session:
+Mainly about preparing intern presentation, Ning Tao write a new structure of training class in azure notebook.
+
+Important points:
+Q&A：
+	Yikai Wang: too much repeated returned result, how to improve it.
+	Answer: scale the dimension of embbeding space(256), use PCA or TSNE to analyse high-dimension result and visualize them into two-dimension.
+	Answer for last week email: make pipline working so it can be easy to adjust several parameter.
+
+Task to be done:
+	-All members: Report of reading papers of models. It is divided into several parts like: why DML important, literature review. At least one page for each part.
+		      Presentation for microsoft team next week.
+
+=========================================================
+	June 29th (Monday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About 30 minutes
+
+1. Ning Tao showed the structure of our model, which could be referred by every member
+	-Read images from dataset and generate Siamese dataset
+	-Network: embedding network and Siamese net work
+	-Fit, train and save model
+	-Extract embedding and save
+	-Save image paths
+2. Write email to ask Mo about the details of Microsoft Presentation on July 6th
+3. Edit model so that it returns 256-dimension vectors
+4. All members ensure access to Azure Notebook
+
+Task to be done (Before 9pm of July 30th):
+	-Yikai Wang: Split Bird-200 dataset, preprocess and put it into Azure Notebook
+	-All members: Read papers about Contrastive loss and their own models and write summaries.
+	
+=========================================================
+	June 30th (Tuesday)-UCD MEETING
+=========================================================
+(With Simon Caton and Karl Roe)
+Note taker: Zhao Yuan
+Meeting tool: Zoom
+Duration: About 50 minutes
+Preparation before meeting: A previous inner meeting for 6 members was held. Progresses are concluded.
+
+-Advices given:
+(1) Make differentiation between different users(ornithology users and deep learning developers) more clearer.
+(2) More datasets may be needed.
+(3) We should give more details about evaluation, don’t forget this when we give presentations to Microsoft.
+(4) We should include more research phase work and technical details (including papers) in presentations afterwards (Microsoft one and the final one).
+(5) Prioritize the models. Select models have been realized with Pytorch, don’t let a certain one consume too much time.
+(6) Try different distance measures cosine similarity or Jaccard similarity and compare their results.
+(7) Stay ambitious but also stay realistic.
+
+-Q&A:
+1. How does our work differentiate two user features?
+Two perspectives, 1. Find similar bird images. 2. Compare different ways of finding pictures. Show how contain these two perspectives separately in the whole work,
+2. Provide more details on evaluation?
+Time consuming and quality of retrieval. And more information retrieval evaluation measures like precision, recall.
+3. Question about Microsoft presentation?
+We should get more information from Microsoft mentors (if it is better pick one person to present).
+
+Task to be done:
+1. Prepare Microsoft presentation.
+2. Prioritize models, for example models with Pytorch code provided.
+
+=========================================================
+	July 1st (Wednesday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About 45 minutes
+
+1. Discussed feedback given by UCD teachers.
+	-make the other user story clearer and combined better with MVP
+	-More technical details needed
+	-More datasets needed in order not to focus on bird too much
+	-Put evaluation into sprint plan
+2. Plan after getting feedback
+	-Find models have been implemented by others before first
+	-Background reading distribution:
+	(1)A Survey on Metric Learning for Feature Vectors and Structured Data: Zhao Yuan/ Yikai Wang
+	(2)Deep Metric Learning to Rank: Hanyuxi Zhou
+	(3)Unbiased Evaluation of Deep Metric Learning Algorithms: Ning Tao
+	(4)Dimensionality Reduction by Learning an Invariant Mapping: Ning Tao
+	(5)FaceNet: A Unified Embedding for Face Recognition and Clustering: Yili Lai
+	(6)Deep Metric Learning via Lifted Structured Feature Embedding: Zhao Yuan
+	(7)Deep Metric Learning for Practical Person Re-Identification: Yuping Tian
+
+=========================================================
+	July 3rd (Friday)-Microsoft Office Hour
+=========================================================
+(With Mo and Filipe)
+
+Note taker: Zhao Yuan
+Meeting tool: Teams
+Duration: About 15 minutes
+Preparation before meeting: Based on the inner meeting for 6 members on July 1st. Progresses are concluded, questions listed.
+
+Feedbacks of Interim Presentation and Demo are shared to mentors.
+-Advices given:
+(1) For the coming Microsoft presentation, more research parts (technical background) should be included. Conclusion of future/current work also necessary. 
+(2) Move forward, don’t be satisfied with current achievements.
+(3) Incorporate feedback into coming presentation and future phases.
+(4) All members better take part in the presentation, one person control the PPT.
+(5) Be well prepared for problems like connection, noises…
+(6) Tell people why you are working on it, show timeline (phases), current progress and future progress.
+
+-Q&A:
+1. Would you please give more information about the Microsoft presentation?
+It is a live one by screen sharing, lasts 15mins. More improvements or details should be cover into it. In case of connection problems, a backup person should be prepared so that the presentation won’t be terminated.
+2. What about Q&A part?
+Don’t treat it an exam but a conversation, you are sharing a nice topic to all your audience, and they are eager to communicate with you.
+
+Task to be done:
+1. Two summaries during weekend.
+2. Prepare for presentation.
+
+=========================================================
+	July 3rd (Friday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About 20 minutes
+
+1. Assign the 6 models found to members and every member trys to implement them.
+	-Zhao Yuan: Multisimilarity
+	-Ning Tao: Triplet
+	-Yili Lai: Arcface
+	-Yuping Tian: Proxy-NCA
+	-Yikai Wang: Cosface
+	-Hanyuxi Zhou: SoftTriple
+
+Task to be done:
+	-New presentation practice at 9 pm on Sunday (July 5th)
+	-Model implementation tasks assigned are supposed to be finished next week
+	
+=========================================================
+	July 5rd (Sunday)-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About 3 hours
+
+Presentation rehearsal:
+1. Update content according to feedback obtained from UCD
+	-fit user story and our MVP better
+	-add more dataset introduction
+	-add evaluation details
+	-change the format
+2. Time control: All members practiced several times togther and finally finish presentation in 15 minites
+
+=========================================================
+	July 6th (Monday)-MICROSOFT MEETING
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Ning Tao
+Meeting tool: Microsoft Teams
+Duration: About 40 minutes
+
+Feedback on Mincrosoft presentation draft:
+1. Objective Slide: Reduce word
+2. User Story: Add image of a student and expert.
+3. System structure graph: change the graph to two flows, now it looks like two step is happening parellel, add 15 seconds detail about contrastive loss, siamese architecture
+4. Data source: Make subtopics appear one by one.
+5. Evaluation: Appear one by one.
+6. Time line: try to explain in more detail what we have done, to make audience feel you are confident.
+
+Important points:
+
+1. paper with code website
+2. progress and paper summary review will be on Thursday
+3. Q&A：
+	Ning Tao: All implementation detail in presentation, should there be content change to add some datail about how model calculate the similarity?
+	Answer: The current content is well organized and there isn't any redundant information, so add 15 sencond detail about model after technology stack and structure. Image that explain how it work is recommended.
+
+Task to be done:
+	-All members: 1. Change the PPT of the presentation, practice more.
+			2. Write summary and send it to Mo before Thursday meeting.
+
+=========================================================
+	July 7th (Tuesday)-GROUP MEETING
+=========================================================
+(With Deepak Ajwani and Hamidreza Khalaghzadeh)
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: Around 40 minites
+
+1. Feedback of our rehearsal video of Microsoft presentation
+	-Target audience of industry presentation: people having no idea of deep metric learning
+	-High level introduction and problem addressing needed: 
+		(1)Why is deep metric learning important?
+		(2)Applications of DML
+		(3)The potential of the project
+		(4)Key technical problem to be solved or what to be achieved
+	-Make people interested in it and fund it in first several minutes
+	-More professional graphs
+	-Practice the cooperation of the members in the presentation
+2. Evaluation plan (in the coming 2 weeks)
+	-Software system performance: 
+		(1)Response speed: 
+			Write python script to send requests and count the respond time
+		(2)Multiple requests processing
+	-Model evaluation: Accuracy, precision, recall and speed of models
+	-Retrieval quality: 
+		(1)Verify models performance using validate pictures set with different backgrounds or object status.
+		(2)Collect users' opinion on performance of models using surveys
+	-The plan will be executed from next Thursday after finishing implementing our models.
+	-Feedback of evaluation
+		(1)When applying model to large dataset, response speed won't be high since tens of thousands of distance calculation are needed.
+		(2)Evaluation plan makes sense based on the user stories provided.
+3. Q&A:
+	(1) Since our project and website are for researching and learning, and the target users are someone like machine learning developers, how can we make adjustments so that people with business purpose would like to fund our website?
+	Answer: The topic and area of this kind of research are much more beyond this project. You don't need to show that your project solves everything, but need to show them the potential of continuous work and research and persuade them that this kind of research is profitable. For example, the continuous research might be video retrieval and this research could be used in other applications.
+
+
+
+=========================================================
+	July 7th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: Around one hour and a half
+
+Interim presentation rehearsal and content modification
+
+
+=========================================================
+	July 9th (Thursday)-MICROSOFT MEETING
+=========================================================
+(With Mo Karzand and Filipe Figueiredo)
+Note taker: Yuping Tian
+Meeting tool: Microsoft Teams
+Duration: About 25 minutes
+
+Feed back of the presentation:
+	-Technical stack: people may not understand the image of the loss function. Not every 	 one have the back ground of the involved in deep metric learning.
+	-Consider doing something means you are going to do.
+
+Suggestion about the future work:
+	-7 summary of reports have already sent to Mo, Mo suggest us to read each other's 		 report.
+	-If code is existing online, take as guideline.
+	-12 models is ambitious, 6 is well enough. Finish one first, then go on to the next 	 one.
+	-Have meeting before coding, talk about evaluation.
+	-Do the evaluation for each datasets, put performance in a csv file, then can compare 	 each other.
+	-Make the code highly modular and the parameters or other features can be changed 		 easily.
+
+
+
+
+=========================================================
+	July 9th (Thursday)-GROUP MEETING
+=========================================================
+Note taker: Yuping Tian
+Meeting tool: Discord
+Duration: 15 minutes
+
+Determine the plan of the future:
+	-understand the model each one respond for.
+	-have meeting on July 10th and talk about the paper of each other, then read the paper of them.
+
+=========================================================
+	July 10th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around one hour
+
+Set plans and deadlines for coming tasks
+
+=========================================================
+	July 12th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around one hour
+
+Exchange task progress and understanding of each member's paper report
+
+
+=========================================================
+	July 13th (Friday)-Microsoft Meeting
+=========================================================
+(With Mo and Filipe)
+Note taker: Zhao Yuan
+Meeting tool: Teams
+Duration: About 40 minutes
+Preparation before meeting: A previous meeting for group members was held and progresses are shared with each other.
+
+-Advices given:
+(1) Questions about SoftTriple Loss, KKT condations are explained. 
+(2) A paper about cover Optimization is recommanded some specific pages contains the knowledge we require.
+(3) New arrangement for 27th meeting.
+(4) 5 second limit is not a good standard for users to enjoy. Don’t use exact neighbor search but approximate neighbor search.
+(5) Examples bout approximate neighbor search are recommended.
+
+-Q&A:
+1. Do you have comparative performance so far?
+Not yet, models are not deployed on the sever at the moment, after deployment, there will be comparative performances. Deployment will be held on 14th July and 15th is the day for performance test.
+2. Do you have presentation for next two weeks?
+No, the following two weeks is the golden time for us to work on the technical part of the project, no need to put our effort on something else.
+
+Task to be done:
+1. Model deployment on sever.
+2. Comparative performance for models.
+
+=========================================================
+	July 14th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around half one hour
+
+Discuss the progress of deploying models on web server
+
+=========================================================
+	July 16th (Thursday)-Microsoft Office Hour
+=========================================================
+(With Mo and Filipe)
+Note taker: Ning Tao
+Meeting tool: Teams
+Duration: About 30 minutes
+
+-Discussion:
+(1) Reported about current progress
+(2) Azure notebook, expansion of kernals. Currently only able to calculate 3 notebook at the sametime.
+(3) Current module knowledge share:
+	Yikai:cosface
+	Hanyuxi Zhou: pretrained module (ImageNet), softtriple
+	Yili Lai: arcface, similar with Yikai
+	Zhao Yuan: multi-similarity
+	Ning Tao: Contrastive , Triplet
+
+-Q&A:
+1. Q: Hanyuxi Zhou: can't rebuild the network trained from azure notebook.
+	A: torch version, same set up would solve. (torch.__version__)
+2. Q: Zhao Yuan: Why we split train and test data by first 100 class and second 200 class.
+	A: to boost the performance of the module.
+3. Q: Ning Tao: Should train and test split same for all modules?
+	A: Yes
+4: Q: Ning Tao: What CNN should we choose for contrastive and triplet?
+	A: should use ImageNet and ResNet that same with others.
+
+Task to be done:
+1. Start consider about fair comparision, make everything except module same.
+2. keep implementing other module.
+
+
+=========================================================
+	July 16th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around 40 minutes
+
+1. Discuss the parameters which can be used by all models:
+	Training set: CUB-200 image set equally divided into training set and testing set
+	batch size/learning rate/epoch: find the best value for each model seperately
+2. Yuan Zhao write a mail to Microsoft Azure to ask for a higher core number limit.
+
+=========================================================
+	July 19th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around 30 minutes
+
+1. Discuss the progress of deploying multiple models to web server
+2. Discuss the 3 evaluation metrics mentioned by Microsoft mentors: precision@1, MAP@R , and R-precision
+
+=========================================================
+	July 20th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around 30 minutes
+
+Plan for coming tasks:
+	Yikai Wang: test the precision, recall and sppend of models
+	Ning Tao: build embedding space and procedure of model retrieval template
+	Hanyuxi Zhou/ Yili Lai: try to deploy web server on docker
+	Zhao Yuan/ Yuping Tian: models left to be built and trained
+
+=========================================================
+	July 21st (Tuesday)-FEEDBACK SESSION
+=========================================================
+(With Neil Hurley and Hung Ngo)
+Note taker: Hanyuxi Zhou
+Meeting tool: Zoom
+Duration: Around 25 minutes
+
+1. Evaluation plan:
+	(1) Deploy multiple models and collect users' opinion on retrieval results
+	(2) Users' interaction with the system needed
+	(3) Different images for all users in evaluation as input and the user evaluation of outputs should say something to improve our models.
+	(4) Current user interface:
+		-Users upload a picture as a query.
+		-The picture is turned into a tensor and our model puts the tensor into the embedding space created ahead of time and retrieves the top 10 closest tensors of pictures.
+		-Web server returns and shows the 10 pictures to users.
+2. Progress of our team:
+	(1) 7 models have been finished.
+	(2) Most of the models can achieve an accuracy of around 75%. Some of the models are kind of similar while others are not.
+3. Suggestion:
+	(1) Consider more about the details of different performances of models and the reasons for that.
+	(2) Design and modify a pilot study with 2 members from other groups before the real evaluation and the final user study will be between 6 students. Think careful about questions to be put in the survey, aspects of systems to be learning and the effect.
+4. Q&A:
+(1) We finished 7 models with prototypes provided but the other 5 models have only descriptions and are much harder to be implemented.
+Focus more on the deliverables and pay attention to covering the grade evaluation points. Seven models, a really good user survey, a good user interface and a good report will give a good grade as long as you have put enough effort into implementation and understanding of the models.
+
+=========================================================
+	July 27th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around 50 minutes
+
+1. Final integration of models and web server
+2. Disscuss and decide the user evaluation plan after communicating with members from another group
+
+=========================================================
+	July 30th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around 50 minutes
+
+1. Finish evaluation
+2. Debug and fix some internal errors caused by wrong format of uploaded image files, then modify some texts to improve UI.
+
+=========================================================
+	July 31st-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: Around an hour
+
+1. Debug and finish model testing codes
+2. New tasks assigned:
+	Yikai Wang/ Hanyuxi Zhou: try to find out the reason for bad performances of Cosface and Arcface and try to improve their performances.
+	Ning Tao/ Yili Lai: finish algorithm website
+	Zhao Yuan: train models on car dataset and observe new models' performance
+
+=========================================================
+	August 3rd-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About an hour
+
+1. Discuss and asign tasks of demo/presentation
+	Finish model introductions with pictures and slides for presentation before Wednesday night
+2. Finish the website and back-end of web server to add multisimilarity and softtriple models trained by car image set
+3. Discuss the cloud infrastructure part of presentation:
+	Showing the Azure webpage and the directory of our web application on web server.
+
+=========================================================
+	August 4th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About half an hour
+
+1. Decide not to show and perform evaluation for car image set
+2. Zhao Yuan design the online survey of user evaluation
+
+=========================================================
+	August 6th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About an hour and a half
+
+First rehearsal for final presentation and modify some content.
+
+=========================================================
+	August 7th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About an hour and 15 minutes
+
+1.Second rehearsal for final presentation and modify the content again according to advice from Microsoft mentors
+2.Time limitation control of presentation
+
+=========================================================
+	August 8th-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About an hour and 40 minutes
+
+Third rehearsal for final presentation and final modification
+
+=========================================================
+	August 11st-GROUP MEETING
+=========================================================
+Note taker: Hanyuxi Zhou
+Meeting tool: Discord
+Duration: About an hour
+
+Tasks asignment for final report:
+Abstract: Ning Tao
+Introduction: Yili Lai
+User Stories / Scenarios : Yuping Tian
+State of the Art / Related Work: Zhao Yuan
+Implementation：Hanyuxi Zhou
+Evaluation/results：Yikai Wang
+Conclusions and future work: Ning Tao
+
+Deadline for first script: 9 pm on Wednesday 
+
+=========================================================
+	August 12th Feedback session
+=========================================================
+(With Simon and Chidubem)
+Note taker: Ning Tao
+Meeting tool: Zoom
+Duration: About 35 minutes
+
+-Discussion:
+(1) Q(Simon): It is Very demonstrated the part of retrieve image for normal user; however, it is not very clear about the use case for researcher for comparing models. How does the web application do the comparison work?
+	A(Yikai): Use different indicator (precision and recall) for getting evaluation numeric result and show as graph on the web application.
+(2) Q(Simon): How if a user wants to compare his own model with existing model on the web application?
+	A(Yikai): We have a complete pipeline for testing and comparing models, user can download the code from GitHub and follow the instruction to compare the provided model with existing ones. (PS: this could be added in the future work)
+(3) Q(Simon): Why you chose these seven models for the web application?
+ 	A(Zhao): We selected these models following the instruction of the Microsoft mentors. Considering the time limit and implementation difficulties, we implemented seven models that have code provided with the paper. (PS: In the report, present this part better, instead of we implement the model due to the implementation convenience, we rather to say the property of the model)
+(4) Q(Simon): In the web comparison page, there is a bar graph and what is the blue bar that labelled metric means?
+	A (Ning Tao): The metric stands for the numeric evaluation result that gained from indicators, in detail, it shows the normalized result of the precision@1 result among the whole dataset. 
+(5) Q(Simon): Extra discussion about which metric is the best is missing, this should be included in the report.
+	A (Yili): This is discussed in the demo at the algorithm introduction part. (it should be explanation more about result of the comparison, such as this is what we found out from the project)
+(6) Q (Simon): what does the K mean in the retrieve code? Is that mean higher K value cost greater computation cost?
+	A (Hanyuxi Zhou): Yes. (Ton: Actually, it is not correct, the retrieve code can return the k nearest images in less than 4 seconds no matter how large the k value is. This is due to the distance between query image and whole dataset is already calculated and included in that 4 second)
+(7) Q (Simon): Did you use any web API for the project?
+	A(Ton): Due to our dataset for the project is directly provided and we don’t need web API to collect data dynamically. But we used multiple toolkit for the web application development, including bootstrap, Vega etc.
+(8) Q (Simon): Scalability discussion.
+	A(Yikai): We have highly extendable pipeline, which means we can add more model and dataset easily.
+(9) Q (Yili): Report page limit discussion.
+	A(Simon): Follow the template and everything is fine.
+  
+
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Search</title>
+
+        <meta name="description" content="description">
+
+		<!-- Mobile Specific Meta
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href={{ url_for('static', filename = 'img/logos/icon.png')}} />
+
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/font-awesome.min.css")}}>
+		<!-- bootstrap.min css -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/bootstrap.min.css")}}>
+		<!-- Animate.css -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/animate.css")}}>
+		<!-- Owl Carousel -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/owl.carousel.css")}}>
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/main.css")}}>
+		<!-- Media Queries -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/responsive.css")}}>
+
+
+		<!--
+		Google Font
+		=========================== -->
+
+		<!-- Oswald / Title Font -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<!-- Ubuntu / Body Font -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+
+		<!-- Modernizer Script for old Browsers -->
+        <script src={{ url_for('static', filename = "js/modernizr-2.6.2.min.js")}}></script>
+
+    </head>
+
+    <body class="search-page">
+	    <!--
+	    Start Preloader
+	    ==================================== -->
+		<div id="loading-mask">
+			<div class="loading-img">
+				<img alt="Meghna Preloader" src={{ url_for('static', filename = "img/preloader.gif" )}} />
+			</div>
+		</div>
+        <!--
+        End Preloader
+        ==================================== -->
+
+        <!--
+        Fixed Navigation
+        ==================================== -->
+        <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/search">
+						<h1 id="logo">
+							<img src={{ url_for('static', filename = "img/logos/icon.png")}} alt="Meghna" />
+                            Image Engine
+						</h1>
+					</a>
+                </div>
+
+               <nav class="collapse navbar-collapse navbar-right" >
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="/search">Home</a></li>
+                        <li><a href="/algorithm">Algorithm</a></li>
+                        <li><a href="/download">Download</a></li>
+                        <li><a href="/search#contact-us">Contact</a></li>
+                    </ul>
+                </nav><!-- /.navbar-collapse -->
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+
+
+        <!-- Start Blog Banner
+        ==================================== -->
+        <section id="blog-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+
+                        <div class="blog-title">
+                            <h1>Data source</h1>
+                        </div>
+
+					</div>     <!-- End col-lg-12 -->
+				</div>	    <!-- End row -->
+			</div>       <!-- End container -->
+		</section>    <!-- End Section -->
+
+        <!--
+        ==================================== -->
+        <section id="page">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="fn-section-header">
+					<h2>Caltech-UCSD Birds-200-2011</h2>
+					<a href="http://www.vision.caltech.edu/visipedia/CUB-200-2011.html">Click here for download</a>
+                    <p>CUB-200-2011 dataset (1.1G) is a new version of CUB-200 and is made up of
+11,788 pictures of 200 bird species living in North American mostly. Images in this
+dataset overlap with images in ImageNet. Training and testing split of this dataset is
+suggested in a txt file, dividing all pictures approximately equally into training and
+testing sets.
+Each image is assigned with a class and a bounding box label measured in pixels.
+Each picture is also divided into 15 parts by pixel location of the center of the part
+and part locations also have another version perceived by multiple Mechanical Turk
+users. Moreover, this dataset contains 322 binary attribute labels (on a per-class
+level) of images obtained from MTurk workers.</p>
+				</div>
+				<div class="fn-section-header">
+					<h2>Cars-196</h2>
+					<a href="http://ai.stanford.edu/~jkrause/cars/car_dataset.html">Click here for download</a>
+                    <p>Cars-196 dataset (1.8G) contains 16185 pictures of 196 classes of cars, in which
+8,144 of them are training images and the other 8,041 are testing images. Images
+from each class are approximately equally divided into training and testing images.
+Annotations of each picture including bounding box(measured in pixels), class and
+filename, which are stored in struct arrays of length num_images. Class names and
+annotations are stored in MAT files and a matlab script for evaluating training
+accuracy is provided.</p>
+				</div>
+				<div class="fn-section-header">
+					<h2>Our GITHUB</h2>
+					<p><a href="https://github.com/ucd-nlmsc-teamproject/TeamStaySafe">https://github.com/ucd-nlmsc-teamproject/TeamStaySafe</a></p>
+				</div>
+                </div>
+            </div>
+
+		</section>    <!-- End Section -->
+
+        <section id="contact-us2">
+			<div class="container">
+				<div class="row">
+
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+						<h2>Get In <span class="color">Touch</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+
+					<!-- Contact Details -->
+					<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+						<h3>Contact Details</h3>
+						<div class="contact-details">
+							<div class="con-info clearfix">
+								<i class="fa fa-home fa-lg"></i>
+								<span>UCD Belfield, Dublin 4, Ireland.</span>
+							</div>
+
+							<div class="con-info clearfix">
+								<i class="fa fa-phone fa-lg"></i>
+								<span>Phone: +353-087-3936-561</span>
+							</div>
+
+							<div class="con-info clearfix">
+								<i class="fa fa-envelope fa-lg"></i>
+								<span>Email: yili.lai@ucdconnect.ie</span>
+							</div>
+						</div>
+					</div>
+					<!-- / End Contact Details -->
+
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+
+
+		</section> <!-- end section -->
+
+		<!-- end Contact Area-->
+
+
+
+		<!-- Back to Top
+		============================== -->
+		<a href="#" id="scrollUp"><i class="fa fa-angle-up fa-2x"></i></a>
+
+		<!-- end Footer Area
+		========================================== -->
+
+		<!--
+		Essential Scripts
+		=====================================-->
+
+		<!-- Main jQuery -->
+		<script src="{{ url_for('static', filename = 'js/jquery-1.11.0.min.js')}}"></script>
+		<!-- Bootstrap 3.1 -->
+		<script src="{{ url_for('static', filename = 'js/bootstrap.min.js')}}"></script>
+		<!-- Back to Top -->
+		<script src="{{ url_for('static', filename = 'js/jquery.scrollUp.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/classie.js')}}"></script>
+		<!-- Owl Carousel -->
+		<script src="{{ url_for('static', filename = 'js/owl.carousel.min.js')}}"></script>
+		<!-- Custom Scrollbar -->
+		<script src="{{ url_for('static', filename = 'js/jquery.nicescroll.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.nicescroll.js')}}"></script>
+		<!-- jQuery Easing -->
+		<script src="{{ url_for('static', filename = 'js/jquery.easing-1.3.pack.js')}}"></script>
+		<!-- wow.min Script -->
+		<script src="{{ url_for('static', filename = 'js/wow.min.js')}}"></script>
+		<!-- For video responsive -->
+		<script src="{{ url_for('static', filename = 'js/jquery.fitvids.js')}}"></script>
+		<!-- Custom js -->
+		<script src="{{ url_for('static', filename = 'js/custom.js')}}"></script>
+    <script src="{{ url_for('static', filename = 'js/jquery.sticky.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.parallax-1.1.3.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.nav.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.appear.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/tweetie.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.mixitup.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/grid.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.slitslider.js')}}"></script>
+
+    </body>
+</html>

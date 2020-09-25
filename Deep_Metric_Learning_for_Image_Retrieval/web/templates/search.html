@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Search</title>
+		
+        <meta name="description" content="description">
+		
+		<!-- Mobile Specific Meta
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename = 'img/logos/icon.png')}}" />
+		
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+		<link rel="stylesheet" href="{{ url_for('static', filename = 'css/font-awesome.min.css')}}">
+		<!-- bootstrap.min css -->
+		<link rel="stylesheet" href="{{ url_for('static', filename = 'css/bootstrap.min.css')}}">
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="{{ url_for('static', filename = 'css/animate.css')}}">
+		<!-- Owl Carousel -->
+		<link rel="stylesheet" href="{{ url_for('static', filename = 'css/owl.carousel.css')}}">		
+		<!-- Main Stylesheet -->
+		<link rel="stylesheet" href="{{ url_for('static', filename = 'css/main.css')}}">
+		<!-- Media Queries -->
+		<link rel="stylesheet" href="{{ url_for('static', filename = 'css/responsive.css')}}">
+		
+		
+		<!--
+		Google Font
+		=========================== -->                    
+		
+		<!-- Oswald / Title Font -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<!-- Ubuntu / Body Font -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+		
+		<!-- Modernizer Script for old Browsers -->
+	<script src="{{ url_for('static', filename = 'js/modernizr-2.6.2.min.js')}}"></script>
+
+    </head>
+	
+    <body class="search-page">
+	    <!--
+	    Start Preloader
+	    ==================================== -->
+		<div id="loading-mask">
+			<div class="loading-img">
+				<img alt="Meghna Preloader" src="{{ url_for('static', filename = 'img/preloader.gif')}}"  />
+			</div>
+		</div>
+        <!--
+        End Preloader
+        ==================================== -->
+        
+        <!-- 
+        Fixed Navigation
+        ==================================== -->
+        <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/search">
+						<h1 id="logo">
+							<img src="{{ url_for('static', filename = 'img/logos/icon.png')}}" alt="Meghna" />
+                            Image Engine
+						</h1>
+					</a>
+                </div>
+
+                <nav class="collapse navbar-collapse navbar-right" >
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="/search">Home</a></li>
+                        <li><a href="/algorithm">Algorithm</a></li>
+                        <li><a href="/download">Download</a></li>
+                        <li><a href="/search#contact-us">Contact</a></li>
+                    </ul>
+
+                </nav><!-- /.navbar-collapse -->
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+        
+        
+        <!-- Start Blog Banner
+        ==================================== -->
+        <section id="blog-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+
+                        <div class="blog-title">
+                            <h1>Welcome to Our Engine</h1>
+                        </div>
+                        
+					</div>     <!-- End col-lg-12 -->
+				</div>	    <!-- End row -->
+			</div>       <!-- End container -->
+		</section>    <!-- End Section -->
+
+        <!--
+        ==================================== -->
+        <section id="page">
+            <div class="container">
+                <div class="row">
+                   <!-- Widget Section -->
+                    <div id="left-sidebar" class="col-md-4 col-sm-4">
+
+                       <!-- Single Widget -->
+                        <aside class="widget wow fadeInUp"  data-wow-duration="1000ms">
+							<div class="widget-title">
+                               <h3>Search</h3>
+							</div>
+                             <aside class="widget wow fadeInDown">
+							<div class="widget-title">
+                               <h3>Please choose the dataset</h3>
+							</div>
+                        </aside>
+                           <div class="widget-content">
+                               <form action="/choose" id="dataset-form" method="get" role="dataset">
+                               <div class="select_style"><select name="choosedataset" id = "choosedataset" onchange="changedata()">
+                                        <option value ="bird">bird</option><option value ="car">car</option>
+                                        
+                                    </select>
+                                    </div>
+				<input id ="selectdata" type="hidden" class="form-control" value="{{ dataset }}" />
+                               </form>
+							</div>
+                            <aside class="widget wow fadeInDown">
+							<div class="widget-title">
+                               <h3>Please choose the model</h3>
+							</div>
+                        </aside>
+                           <div class="widget-content">
+                               <form action="/choose" id="choose-form" method="get" role="choose">
+                               <div class="select_style"><select name="choosemodel" id = "choosemodel" onchange="changemodel()">
+                                        <option value ="0">contrastive</option>
+                                        <option value ="1">softtriple</option>
+                                        <option value ="2">arcface</option>
+                                        <option value ="3">cosface</option>
+                                        <option value ="4">multisimilarity</option>
+                                        <option value ="5">proxyNCA</option>
+                                        <option value ="6">triplet</option>
+                                    </select>
+                                   <select name="choosecarmodel" id = "choosecarmodel" onchange="changemodel()">
+                                        <option value ="7">softtriple</option>
+                                        <option value ="8">multisimilarity</option>
+                                        <option value ="9">proxyNCA</option>
+                                    </select>
+                                    </div>
+				<input id ="selectedModel" type="hidden" class="form-control" value="{{ model }}" />
+                               </form>
+                               <aside class="widget wow fadeInDown">
+							<div class="widget-title">
+				{% if error %}
+        				<h4 style="color:red">{{ error }}</h4>
+    				{% endif %}
+                               <h3>Please input the url of your image</h3>
+							</div>
+                        </aside>
+                                <form action="/search" id="search-form" method="get" role="search">
+                                    <input type="text" class="form-control" placeholder="Search..." autocomplete="on" name="search">
+                                    <!--<button type="submit" title="Search" id="search-submit">
+                                        Search
+										<i class="fa fa-search"></i>
+									</button>-->
+					<input class="form-control" type=submit value="Search">
+                                </form>
+                           </div>
+                        </aside>
+                        <!-- End Single Widget -->
+
+
+                        <!-- Single Widget -->
+                        <aside class="widget wow fadeInDown">
+							<div class="widget-title">
+                               <h3>Upload an image</h3>
+                                <form action="/search" method=post enctype=multipart/form-data>
+                                <p><input type=file name=file>
+                                    <input class="form-control" type=submit value="Upload and search">
+                                </form>
+							</div>
+							<div class="widget-content">
+                                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ducimus in dolorum accusantium voluptate nostrum, excepturi dolores voluptatem vel rerum at, recusandae inventore nobis ex eveniet sunt eligendi, qui provident.</p>-->
+							</div>
+                        </aside>
+                        <aside class="widget wow fadeInDown">
+                            <form action="/evaluation" id="eva-form" method="get" role="eva">
+                            <input id ="askforevainput" name="askforevainput" type="hidden" class="form-control" placeholder='None' value="{{ uploaded_path }}" />
+                        <button type="submit" class="btn btn-block btn-danger" title="HELP US EVALUATION" id="askevaluation" onclick="askforeva()">
+				Evaluate all models with this picture
+                        </button>
+                            </form>
+                        </aside>
+                        <!-- End Single Widget -->
+                    </div>
+                    <!-- End Widget Section -->
+                    <div id="posts" class="col-md-8 col-sm-8">
+                        <div class="post-item">
+                           
+                           <!-- Single Post -->
+                            <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                                <div class="post-thumb">
+					<img src="{{ url_for('static', filename = uploaded_path)}}" alt="3D Beach Art | Meghna" class="img-responsive">
+                                </div>
+								<div class="post-excerpt">
+									<h3>The image you uplaod</h3>
+								</div>
+                            </article>
+                            <!-- End Single Post -->
+                           
+                           <!-- Single Post -->
+                            <article class="entry wow fadeInDown"  data-wow-duration="1000ms" data-wow-delay="300ms">
+
+								<div id="post-thumb" class="post-thumb">
+									<div class="item">
+										<img src="{{ url_for('static', filename = result_path[0])}}" alt="Flying bicycle" class="img-responsive">
+									</div>
+									<div class="item">
+										<img src="{{ url_for('static', filename = result_path[1])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+                                    <div class="item">
+										<img src="{{ url_for('static', filename = result_path[2])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+                                    <div class="item">
+										<img src="{{ url_for('static', filename = result_path[3])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+                                    <div class="item">
+										<img src="{{ url_for('static', filename = result_path[4])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+                                    <div class="item">
+										<img src="{{ url_for('static', filename = result_path[5])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+                                    <div class="item">
+										<img src="{{ url_for('static', filename = result_path[6])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+                                    <div class="item">
+										<img src="{{ url_for('static', filename = result_path[7])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+                                    <div class="item">
+										<img src="{{ url_for('static', filename = result_path[8])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+                                    <div class="item">
+										<img src="{{ url_for('static', filename = result_path[9])}}" alt="3D Beach Art | Meghna" class="img-responsive">
+									</div>
+								</div>
+
+                                <div class="post-excerpt">
+									<h3>Result from our model</h3>
+                                </div>
+
+                            </article>
+                            <!-- End Single Post -->
+
+                        </div>
+                    </div>
+                    
+
+
+				</div>	    <!-- End row -->
+			</div>       <!-- End container -->
+		</section>    <!-- End Section -->
+
+        <section id="contact-us">
+			<div class="container">
+				<div class="row">
+
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+						<h2>Get In <span class="color">Touch</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+
+					<!-- Contact Details -->
+					<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+						<h3>Contact Details</h3>
+						<div class="contact-details">
+							<div class="con-info clearfix">
+								<i class="fa fa-home fa-lg"></i>
+								<span>UCD Belfield, Dublin 4, Ireland.</span>
+							</div>
+
+							<div class="con-info clearfix">
+								<i class="fa fa-phone fa-lg"></i>
+								<span>Phone: +353-087-3936-561</span>
+							</div>
+
+							<div class="con-info clearfix">
+								<i class="fa fa-envelope fa-lg"></i>
+								<span>Email: yili.lai@ucdconnect.ie</span>
+							</div>
+						</div>
+					</div>
+					<!-- / End Contact Details -->
+
+
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+
+
+		</section> <!-- end section -->
+
+		<!-- end Contact Area-->
+
+
+		
+		<!-- Back to Top
+		============================== -->
+		<a href="#" id="scrollUp"><i class="fa fa-angle-up fa-2x"></i></a>
+		
+		<!-- end Footer Area
+		========================================== -->
+		<!-- 
+		Essential Scripts
+		=====================================-->
+		
+		<!-- Main jQuery -->
+		<script src="{{ url_for('static', filename = 'js/jquery-1.11.0.min.js')}}"></script>
+		<!--<script src="{{ url_for('static', filename = 'js/jquery-3.5.1.min.js')}}"></script>-->
+		<!-- Bootstrap 3.1 -->
+		<script src="{{ url_for('static', filename = 'js/bootstrap.min.js')}}"></script>
+		<!-- Back to Top -->
+		<script src="{{ url_for('static', filename = 'js/jquery.scrollUp.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/classie.js')}}"></script>
+		<!-- Owl Carousel -->
+		<script src="{{ url_for('static', filename = 'js/owl.carousel.min.js')}}"></script>
+		<!-- Custom Scrollbar -->
+		<script src="{{ url_for('static', filename = 'js/jquery.nicescroll.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.nicescroll.js')}}"></script>
+		<!-- jQuery Easing -->
+		<script src="{{ url_for('static', filename = 'js/jquery.easing-1.3.pack.js')}}"></script>
+		<!-- wow.min Script -->
+		<script src="{{ url_for('static', filename = 'js/wow.min.js')}}"></script>
+		<!-- For video responsive -->
+		<script src="{{ url_for('static', filename = 'js/jquery.fitvids.js')}}"></script>
+		<!-- Custom js -->
+		<script src="{{ url_for('static', filename = 'js/custom.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.sticky.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.parallax-1.1.3.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.nav.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.appear.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/tweetie.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.mixitup.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/grid.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.slitslider.js')}}"></script>
+
+
+		
+<script type="text/javascript">
+    $(document).ready(function(){
+	var key = "{{ model }}";
+	//alert(key)
+	var index = parseInt(key);
+	if(index<7){
+		document.getElementById("choosemodel").selectedIndex = parseInt(key);}
+	else{
+		document.getElementById("choosecarmodel").selectedIndex = parseInt(key)-7;}
+	var datakey = "{{ dataset }}";
+	var dataindex
+	if(datakey == 'bird'){
+		dataindex = 0;}else{
+		dataindex = 1;}
+        document.getElementById("choosedataset").selectedIndex = parseInt(dataindex);
+    	var select = $("#choosedataset").val();
+        if(select == 'bird'){
+             $("select[id=choosemodel]").show();
+            $("select[id=choosecarmodel]").hide();
+        }else{
+            $("select[id=choosemodel]").hide();
+            $("select[id=choosecarmodel]").show();
+	    $("button[id=askevaluation]").hide();
+        }
+
+        var imguplaod = $("#askforevainput").val();
+	    comparestr = "img/default.png";
+        if(imguplaod == comparestr){
+                document.getElementById("askevaluation").disabled = true;
+        }else{
+                document.getElementById("askevaluation").disabled = false;
+            }
+	
+    });
+    </script>
+    <script type="text/javascript">
+        function changedata(){
+            var dataset = document.getElementById("dataset-form");
+            dataset.submit();
+
+        }
+	function changemodel(){
+		var model = document.getElementById("choose-form");
+		model.submit();
+	}
+        function changeselect(){
+           var select = document.getElementById("choosemodel");//select的当前值
+            select.submit();
+        }
+	function changecarselect(){
+           var select = document.getElementById("choosecarmodel");//select的当前值
+            select.submit();
+        }
+        
+    </script>
+    <script type="text/javascript">
+        function askforeva(){
+            var path = document.getElementById("eva-form");
+            path.submit();
+
+        }
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+name,score,type
+multisimilarity,0.98,metric
+triplet,0.3,metric
+contrastive,0.29,metric
+cosface,0.1,metric
+softtriple,1,metric
+arcface,0.1,metric
+proxyNCA,0.12,metric
+multisimilarity,0.93,user
+triplet,0.3,user
+contrastive,0.66,user
+cosface,0.6,user
+softtriple,1,user
+arcface,0.01,user
+proxyNCA,0.5,user

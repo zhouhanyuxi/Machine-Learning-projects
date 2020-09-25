@@ -1,0 +1,88 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ucd-nlmsc-teamproject/TeamStaySafe/master/evaluation_data/recall_visualization.csv?token=AGU76FERKRQA4P2EDJWTMDK7GCDRI",
+    "format": {"type": "csv"}
+  },
+  "width": 1000,
+  "height": 700,
+  "layer": [
+    {
+      "encoding": {
+        "x": {"field": "metric", "type": "nominal"},
+        "y": {"field": "data", "type": "quantitative"},
+        "color": {"field": "Name", "type": "nominal"}
+      },
+      "layer": [
+        {
+          "selection": {
+            "legen_select": {
+              "type": "multi", "fields": ["Name"], "bind": "legend"
+            }
+          },
+          "mark": "line",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "legen_select", "value": 1},
+              "value": 0.15
+            }
+          }
+        },
+        {
+          "selection": {
+            "label": {
+              "type": "single",
+              "nearest": true,
+              "on": "mouseover",
+              "encodings": ["x"],
+              "empty": "none"
+            }
+          },
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "label", "value": 1},
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [{"filter": {"selection": "label"}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {"type": "nominal", "field": "metric"}
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "data"},
+            "x": {"type": "nominal", "field": "metric"},
+            "y": {"type": "quantitative", "field": "data"}
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {
+                "color": {"type": "nominal", "field": "Name"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Search</title>
+
+        <meta name="description" content="description">
+
+		<!-- Mobile Specific Meta
+		================================================== -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href={{ url_for('static', filename = 'img/logos/icon.png')}} />
+
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/font-awesome.min.css")}}>
+		<!-- bootstrap.min css -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/bootstrap.min.css")}}>
+		<!-- Animate.css -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/animate.css")}}>
+		<!-- Owl Carousel -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/owl.carousel.css")}}>
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/main.css")}}>
+		<!-- Media Queries -->
+        <link rel="stylesheet" href={{ url_for('static', filename = "css/responsive.css")}}>
+
+
+		<!--
+		Google Font
+		=========================== -->
+
+		<!-- Oswald / Title Font -->
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<!-- Ubuntu / Body Font -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+
+		<!-- Modernizer Script for old Browsers -->
+        <script src={{ url_for('static', filename = "js/modernizr-2.6.2.min.js")}}></script>
+	
+	
+
+    </head>
+
+    <body class="search-page">
+	    <!--
+	    Start Preloader
+	    ==================================== -->
+		<div id="loading-mask">
+			<div class="loading-img">
+				<img alt="Meghna Preloader" src={{ url_for('static', filename = "img/preloader.gif" )}} />
+			</div>
+		</div>
+        <!--
+        End Preloader
+        ==================================== -->
+
+        <!--
+        Fixed Navigation
+        ==================================== -->
+         <header class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container" >
+                <div class="navbar-header" style="z-index:999">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/search">
+						<h1 id="logo">
+							<img src="{{ url_for('static', filename = 'img/logos/icon.png')}}" alt="Meghna" />
+                            Image Engine
+						</h1>
+					</a>
+                </div>
+
+                <nav class="collapse navbar-collapse navbar-right" >
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="/search">Home</a></li>
+                        <li><a href="/algorithm">Algorithm</a></li>
+                        <li><a href="/download">Download</a></li>
+                        <li><a href="/search#contact-us">Contact</a></li>
+                    </ul>
+
+                </nav><!-- /.navbar-collapse -->
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+
+
+        <!-- Start Blog Banner
+        ==================================== -->
+        <section id="blog-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+
+                        <div class="blog-title">
+                            <h1>Algorithm</h1>
+                        </div>
+
+					</div>     <!-- End col-lg-12 -->
+				</div>	    <!-- End row -->
+			</div>       <!-- End container -->
+		</section>    <!-- End Section -->
+
+        <!--
+        ==================================== -->
+        <section id="page">
+           <!--zhediekuang-->
+
+			<div class="col-md-10 col-md-offset-1">
+			<div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+				<div class="panel-heading custom_class">
+					<h3 class="panel-title">
+						<a data-toggle="collapse" href="#collapseOne">
+						Algorithm Introduction
+						</a>
+					</h3>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse in ">
+					<div class="panel-body">
+						<h5>Contrastive</h5>
+						<p>This retrieval model used a method called Dimensionality Reduction by Learning an Invariant Mapping using contrastive loss, for which learning a function that maps the data to output manifold. The method overcomes two main drawbacks of previous dimension reduction methods, one is it does not need the relation between the new data and input space, the other is that it does not need any specific distance metric. It can learn an invariant mapping to a low dimensional manifold using prior knowledge and the complexity of the invariances that can be learned are only limited by the power of the parameterized function (structure of the neural network). The function maps inputs that evenly cover a manifold, as can be seen by the experimental results. It also faithfully maps new, unseen samples to meaningful locations on the manifold.</p>
+						<h5>Softtriple</h5>
+						<p>Learning the embeddings directly from deep neural networks without the explicit feature extraction makes the dimensionality of input features no longer a challenge, but generating appropriate constraints for optimization becomes challenging for deep metric learning.
+
+Softtriple loss learns embeddings without constraints sampling. SoftMax loss is equivalent to a smoothed triplet loss where each class has a single center and SoftTriple loss extends the SoftMax loss with multiple centers for each class. Optimizing SoftTriple loss can learn the embedding without the sampling phase by mildly increasing the size of the last fully connected layer, since most samples cannot represent data well and would lead to sub-optimal embedding.</p>
+						<h5>Arcface</h5>
+						<p>Arcface is an algorithm training based on additive angular margin loss, which try to divide the classification boundary directly in the angular space. Arcface and sphereface and cosface have certain points in common, but in arcface, the classification limit is maximized directly in the angular space, while cosface maximizes the classification limit in the cosine space. Arcface normalizes feature vectors and weights, and θ With the addition of the angular interval m, the angular interval has a more direct effect on the angle than the cosine interval. There is a constant linear angle margen geometrically.</p>
+						<h5>Cosface</h5>
+						<p>CosFace is essentially a classification based on margin. It sets the margin on the result of cosine loss, that is, cos(theta)-m, so the optimization is relatively simple.
+ 
+We consider the situation when the model initially starts to minimize the LMCL. Given a feature vector x, let cos(θi) and cos(θj) denote cosine scores of the two classes, respectively. Without normalization on features, the LMCL forces ||x||(cos(θi) - m) > ||x|| cos(θj). Note that cos(θi) and cos(θj) can be initially
+comparable with each other. Thus, as long as (cos(θi) -m) is smaller than cos(θj), ||x|| is required to decrease for minimizing the loss, which degenerates the optimization.</p>
+						<h5>Multisimilarity</h5>
+						<p>In deep metric learning, a series of pair-based loss functions have been proposed. But none of them propose a unified framework to understand these loss functions. The framework called General Pair Weighting (GPW) regards the sampling problem in deep metric learning as a pair weighting problem through gradient analysis. Multi-similarity loss is within the framework of GPW. This method focuses on Self-similarity, Negative relative similarity and Positive relative similarity. It is mainly divided into two iterative steps, namely mining and weighting.</p>
+						<h5>ProxyNCA</h5>
+						<p>ProxyNCA is a model based on the triplet-based method, however ProxyNCA is finding proxies to represent the whole datasets instead of finding informative triplets.
+The target of the triplet loss is to make similar points are more closer to anchor point than dissimilar points. Therefore, the sampling is important for the performance of the loss function, ProxyNCA is to re-define triplet based losses over a different space of points, which is called proxies. Each point in the original space has a proxy point that close to it, so this is a space that small enough and similar to the training set.
+</p>
+						<h5>Triplet</h5>
+						<p>Arcface is an algorithm training based on additive angular margin loss, which try to divide the classification boundary directly in the angular space</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<a data-toggle="collapse" href="#collapseTwo">
+							Comparison Result
+						</a>
+					</h3>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse in ">
+					<div class="panel-body">
+						
+						<h5>Recall@k(full dataset)</h5>
+						<div id="vis" class="container" style="height: 50vw;z-index:9"></div>
+						<h5>Precision@k(full dataset)</h5>
+						<div id="precision" class="container" style="height: 50vw;z-index:9"></div>
+                        <h5>Recall@k(test dataset)</h5>
+						<div id="vist" class="container" style="height: 50vw;z-index:9"></div>
+						<h5>Precision@k(test dataset)</h5>
+						<div id="precisiont" class="container" style="height: 50vw;z-index:9"></div>
+                        <h5>Comparison between metric and user</h5>
+                        <img src="{{ url_for('static', filename = 'img/vis_user_evaluation.png')}}" alt="Meghna" />
+						<h5>Result in table(full dataset)</h5>
+						<table class="table">
+  							<thead>
+    						<tr>
+      							<th>algorithm</th>
+      							<th>precision@1</th>
+								<th>precision@5</th>
+								<th>precision@10</th>
+								<th>precision@20</th>
+								<th>precision@30</th>
+								<th>recall@1</th>
+								<th>recall@5</th>
+								<th>recall@10</th>
+								<th>recall@20</th>
+								<th>recall@30</th>
+
+    						</tr>
+  							</thead>
+  							<tbody>
+    						<tr>
+      							<td>multisimilarity</td>
+      							<td>1</td>
+								<td>0.692</td>
+      							<td>0.6015</td>
+								<td>0.531</td>
+      							<td>0.483</td>
+								<td>0.0169</td>
+      							<td>0.0586</td>
+								<td>0.1033</td>
+      							<td>0.1798</td>
+								<td>0.2452</td>
+    						</tr>
+    						<tr>
+								<td>triplet</td>
+      							<td>1</td>
+								<td>0.22</td>
+      							<td>0.116</td>
+								<td>0.638</td>
+      							<td>0.478</td>
+								<td>0.0169</td>
+      							<td>0.0186</td>
+								<td>0.0197</td>
+      							<td>0.0216</td>
+								<td>0.0238</td>
+    						</tr>
+							<tr>
+								<td>contrastive</td>
+      							<td>1</td>
+								<td>0.213</td>
+      							<td>0.114</td>
+								<td>0.0633</td>
+      							<td>0.0478</td>
+								<td>0.0169</td>
+      							<td>0.0181</td>
+								<td>0.0193</td>
+      							<td>0.0214</td>
+								<td>0.0243</td>
+    						</tr>
+							<tr>
+								<td>cosface</td>
+      							<td>0</td>
+								<td>0.007</td>
+      							<td>0.005</td>
+								<td>0.0063</td>
+      							<td>0.0062</td>
+								<td>0</td>
+      							<td>0.0006</td>
+								<td>0.0008</td>
+      							<td>0.0021</td>
+								<td>0.0031</td>
+    						</tr>
+							<tr>
+								<td>softtriple</td>
+      							<td>1</td>
+								<td>0.7</td>
+      							<td>0.6295</td>
+								<td>0.5533</td>
+      							<td>0.5012</td>
+								<td>0.0169</td>
+      							<td>0.0592</td>
+								<td>0.1064</td>
+      							<td>0.1872</td>
+								<td>0.2542</td>
+    						</tr>
+							<tr>
+								<td>arcface</td>
+      							<td>0.005</td>
+								<td>0.006</td>
+      							<td>0.0055</td>
+								<td>0.0048</td>
+                                <td>0.0045</td>
+      							<td>0.0001</td>
+								<td>0.0005</td>
+      							<td>0.0009</td>
+      							<td>0.0016</td>
+								<td>0.0023</td>
+    						</tr>
+							<tr>
+								<td>proxyNCA</td>
+      							<td>0.175</td>
+								<td>0.094</td>
+      							<td>0.072</td>
+								<td>0.055</td>
+      							<td>0.0465</td>
+								<td>0.0030</td>
+      							<td>0.0079</td>
+								<td>0.0121</td>
+      							<td>0.0185</td>
+								<td>0.0235</td>
+    						</tr>
+  							</tbody>
+						</table>
+					</div>
+
+				</div>
+			</div>
+			</div>
+			</div>
+
+
+			<!--endofzhediekuang-->
+		</section>    <!-- End Section -->
+
+        <section id="contact-us1">
+			<div class="container">
+				<div class="row">
+
+					<!-- section title -->
+					<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+						<h2>Get In <span class="color">Touch</span></h2>
+						<div class="border"></div>
+					</div>
+					<!-- /section title -->
+
+					<!-- Contact Details -->
+					<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
+						<h3>Contact Details</h3>
+						<div class="contact-details">
+							<div class="con-info clearfix">
+								<i class="fa fa-home fa-lg"></i>
+								<span>UCD Belfield, Dublin 4, Ireland.</span>
+							</div>
+
+							<div class="con-info clearfix">
+								<i class="fa fa-phone fa-lg"></i>
+								<span>Phone: +353-087-3936-561</span>
+							</div>
+
+							<div class="con-info clearfix">
+								<i class="fa fa-envelope fa-lg"></i>
+								<span>Email: yili.lai@ucdconnect.ie</span>
+							</div>
+						</div>
+					</div>
+					<!-- / End Contact Details -->
+
+					
+
+				</div> <!-- end row -->
+			</div> <!-- end container -->
+
+
+		</section> <!-- end section -->
+
+		<!-- end Contact Area-->
+
+
+
+		<!-- Back to Top
+		============================== -->
+		<a href="#" id="scrollUp"><i class="fa fa-angle-up fa-2x"></i></a>
+
+		<!-- end Footer Area
+		========================================== -->
+
+		<!--
+		Essential Scripts
+		=====================================-->
+
+		<!-- Main jQuery -->
+		<script src="{{ url_for('static', filename = 'js/jquery-1.11.0.min.js')}}"></script>
+		<!-- Bootstrap 3.1 -->
+		<script src="{{ url_for('static', filename = 'js/bootstrap.min.js')}}"></script>
+		<!-- Back to Top -->
+		<script src="{{ url_for('static', filename = 'js/jquery.scrollUp.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/classie.js')}}"></script>
+		<!-- Owl Carousel -->
+		<script src="{{ url_for('static', filename = 'js/owl.carousel.min.js')}}"></script>
+		
+		<!-- jQuery Easing -->
+		<script src="{{ url_for('static', filename = 'js/jquery.easing-1.3.pack.js')}}"></script>
+		<!-- wow.min Script -->
+		<script src="{{ url_for('static', filename = 'js/wow.min.js')}}"></script>
+		<!-- For video responsive -->
+		<script src="{{ url_for('static', filename = 'js/jquery.fitvids.js')}}"></script>
+		<!-- Custom js -->
+		<script src="{{ url_for('static', filename = 'js/custom.js')}}"></script>
+        <script src="{{ url_for('static', filename = 'js/jquery.sticky.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.parallax-1.1.3.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.nav.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.appear.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/tweetie.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.mixitup.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/grid.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.slitslider.js')}}"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega@5.9.0"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.2"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.2.1"></script>
+		<!-- Custom Scrollbar -->
+		<script src="{{ url_for('static', filename = 'js/jquery.nicescroll.min.js')}}"></script>
+		<script src="{{ url_for('static', filename = 'js/jquery.nicescroll.js')}}"></script>
+	 	 <script type="text/javascript">
+    var yourVlSpec =  {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ucd-nlmsc-teamproject/TeamStaySafe/master/evaluation/vis_average_full_rec.csv?token=AGU76FFTWUOCNEVDBQQUBFK7G7ZFM",
+    "format": {"type": "csv"}
+  },
+  "width": "container",
+  "height": "container",
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        },
+        "y": {"field": "data", "type": "quantitative"},
+        "color": {"field": "Name", "type": "nominal"}
+      },
+      "layer": [
+        {
+          "selection": {
+            "legen_select": {
+              "type": "multi", "fields": ["Name"], "bind": "legend"
+            }
+          },
+          "mark": "line",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "legen_select", "value": 1},
+              "value": 0.15
+            }
+          }
+        },
+        {
+          "selection": {
+            "label": {
+              "type": "single",
+              "nearest": true,
+              "on": "mouseover",
+              "encodings": ["x"],
+              "empty": "none"
+            }
+          },
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "label", "value": 1},
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [{"filter": {"selection": "label"}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        }
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "data"},
+            "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        },
+            "y": {"type": "quantitative", "field": "data"}
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {
+                "color": {"type": "nominal", "field": "Name"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+        vegaEmbed("#vis", yourVlSpec);
+  </script>
+	 <script type="text/javascript">
+    var yourVlSpec =  {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ucd-nlmsc-teamproject/TeamStaySafe/master/evaluation/vis_average_full_pre.csv?token=AGU76FGBSC6RGL65DUJMUHC7G7YLK",
+    "format": {"type": "csv"}
+  },
+  "width": "container",
+  "height": "container",
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        },
+        "y": {"field": "data", "type": "quantitative"},
+        "color": {"field": "Name", "type": "nominal"}
+      },
+      "layer": [
+        {
+          "selection": {
+            "legen_select": {
+              "type": "multi", "fields": ["Name"], "bind": "legend"
+            }
+          },
+          "mark": "line",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "legen_select", "value": 1},
+              "value": 0.15
+            }
+          }
+        },
+        {
+          "selection": {
+            "label": {
+              "type": "single",
+              "nearest": true,
+              "on": "mouseover",
+              "encodings": ["x"],
+              "empty": "none"
+            }
+          },
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "label", "value": 1},
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [{"filter": {"selection": "label"}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        }
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "data"},
+            "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        },
+            "y": {"type": "quantitative", "field": "data"}
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {
+                "color": {"type": "nominal", "field": "Name"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+        vegaEmbed("#precision", yourVlSpec);
+  </script>
+        <script type="text/javascript">
+    var yourVlSpec =  {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ucd-nlmsc-teamproject/TeamStaySafe/master/evaluation/vis_average_test_rec.csv?token=AGU76FGSEBFRO5JSCHBNW527G7ZOM",
+    "format": {"type": "csv"}
+  },
+  "width": "container",
+  "height": "container",
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        },
+        "y": {"field": "data", "type": "quantitative"},
+        "color": {"field": "Name", "type": "nominal"}
+      },
+      "layer": [
+        {
+          "selection": {
+            "legen_select": {
+              "type": "multi", "fields": ["Name"], "bind": "legend"
+            }
+          },
+          "mark": "line",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "legen_select", "value": 1},
+              "value": 0.15
+            }
+          }
+        },
+        {
+          "selection": {
+            "label": {
+              "type": "single",
+              "nearest": true,
+              "on": "mouseover",
+              "encodings": ["x"],
+              "empty": "none"
+            }
+          },
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "label", "value": 1},
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [{"filter": {"selection": "label"}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        }
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "data"},
+            "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        },
+            "y": {"type": "quantitative", "field": "data"}
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {
+                "color": {"type": "nominal", "field": "Name"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+        vegaEmbed("#vist", yourVlSpec);
+  </script>
+     <script type="text/javascript">
+    var yourVlSpec =  {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/ucd-nlmsc-teamproject/TeamStaySafe/master/evaluation/vis_average_test_pre.csv?token=AGU76FHS67JKQ27VST3JEN27G7ZMO",
+    "format": {"type": "csv"}
+  },
+  "width": "container",
+  "height": "container",
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        },
+        "y": {"field": "data", "type": "quantitative"},
+        "color": {"field": "Name", "type": "nominal"}
+      },
+      "layer": [
+        {
+          "selection": {
+            "legen_select": {
+              "type": "multi", "fields": ["Name"], "bind": "legend"
+            }
+          },
+          "mark": "line",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "legen_select", "value": 1},
+              "value": 0.15
+            }
+          }
+        },
+        {
+          "selection": {
+            "label": {
+              "type": "single",
+              "nearest": true,
+              "on": "mouseover",
+              "encodings": ["x"],
+              "empty": "none"
+            }
+          },
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {"selection": "label", "value": 1},
+              "value": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [{"filter": {"selection": "label"}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        }
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "data"},
+            "x": {
+          "field": "metric",
+          "type": "nominal",
+          "sort": ["precision@1", "precision@5", "precision@10","precision@20",   "precision@30"]
+        },
+            "y": {"type": "quantitative", "field": "data"}
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {
+                "color": {"type": "nominal", "field": "Name"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+        vegaEmbed("#precisiont", yourVlSpec);
+  </script>
+
+    </body>
+</html>

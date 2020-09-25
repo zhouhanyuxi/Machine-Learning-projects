@@ -1,0 +1,2 @@
+*.wsgi
+__pycache__/
